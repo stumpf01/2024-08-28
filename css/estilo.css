@@ -78,13 +78,16 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: aqua;
+    background-image:url(../img/slidebg1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 500px;
-    padding-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    height:720px;
+    padding-top:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center; /* Centraliza o conteúdo horizontalmente */
 }
 
 /* Estilos para a navegação */
@@ -142,6 +145,23 @@ nav ul li a {
 
 #menu_principal li a {
     margin-left: 5px;
+    color:white;
+    font-size : 14px;
+    text-transform:uppercase;
+    text-decoration:none;
+    transition: 1s;
+
+}
+#menu_principal li a:hover{
+    color:#e7a920;
+    transition: 1s;
+    text-decoration:line-through;
+}
+section{
+    background-image:url(../img/divider-dark.png);
+    width:100%;
+    height:500px;
+    background-repeat: repeat-x;
 }
  
 /*-------------------Trabalho-------------------*/
